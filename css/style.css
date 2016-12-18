@@ -73,8 +73,8 @@ a:hover{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-image:
-		url(../images/me1.jpg),
-		url(../images/me2.jpg);
+		url(../images/me1.JPG),
+		url(../images/me2.JPG);
 	background-size: cover, cover;
 	background-position: -60px 0, 250px 0;
 	transition:transform 1s;
