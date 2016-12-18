@@ -1,0 +1,104 @@
+body{
+	background-image: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 20%;
+	background-attachment: fixed;
+	background-color: rgb(200,200,255);
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color:royalblue;
+	letter-spacing: 10px;
+	font-family: 'Pacifico', cursive;
+}
+.main{
+	background-color: rgba(255,255,255,0.6);
+	/*box-shadow: 0px 0px 100px 10px white;*/
+	max-width:600px;
+	margin: 50px auto;
+	border-radius: 5%;
+	padding: 20px;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color:grey;
+}
+/*img{
+	display: block;
+	margin:0 auto;
+	border: 5px solid rgb(100,100,100);
+	border-radius: 20%;
+	transition: transform 1s;
+}*/
+/*img:hover{
+	transform: rotate(360deg) scale(1.1);
+}*/
+h3{
+	color: darkblue;
+	/*this stops the little jump on the slideToggle jquery*/
+	margin-bottom:0;
+}
+p{
+	margin-bottom:0;
+}
+p,
+ul,
+ol{
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	color:black;
+}
+a{
+	font-weight: bold;
+	color:navajowhite;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.picture{
+	width: 250px;
+	height:250px;
+	margin:0 auto;
+	border-radius: 15%;
+	border:5px solid white;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image:
+		url(../images/me1.jpg),
+		url(../images/me2.jpg);
+	background-size: cover, cover;
+	background-position: -60px 0, 250px 0;
+	transition:transform 1s;
+}
+.picture:hover{
+	background-position: 310px 0, 0 0;
+}
+h3:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+/*this selects all elements after a h3*/
+h3+*{
+	display:none;
+}
+img{
+	width:50px;
+	overflow:none;
+	height:50px;
+}
+footer ul{
+	text-align:center;
+}
+footer li{
+	display:inline;
+	margin:0 10px;
+}
